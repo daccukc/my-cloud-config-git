@@ -10,7 +10,9 @@ management:
     web:
       exposure:
         include: '*'
-env: test  
+env:
+ name: test        
+
 
 
 owner:
