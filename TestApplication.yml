@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: TestApplication
+
+server:
+  port: 8086
+
+env: default
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+hello:
+  rel: default remote Dac
+owner:
+  name: default sasmita samanta singhar
