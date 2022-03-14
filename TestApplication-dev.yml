@@ -10,8 +10,9 @@ management:
     web:
       exposure:
         include: '*'
-env: dev  
-
+env:
+ name: dev
+ 
 owner:
   name: dev killer
 hello:
